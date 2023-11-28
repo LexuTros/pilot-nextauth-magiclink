@@ -1,0 +1,27 @@
+{
+  "name": "pilot-nextauth-magiclink",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth/azure-tables-adapter": "^0.1.5",
+    "@azure/data-tables": "^13.2.2",
+    "next": "14.0.2",
+    "next-auth": "^4.24.5",
+    "nodemailer": "^6.9.7",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.2"
+  },
+  "engines": {
+    "node": ">=18.2.0 <20.0.0"
+  }
+}
